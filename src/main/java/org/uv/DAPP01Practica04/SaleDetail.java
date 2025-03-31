@@ -18,10 +18,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-/**
- *
- * @author gersonvidal
- */
 @Entity
 @Table(name = "sales_detail")
 public class SaleDetail implements Serializable {

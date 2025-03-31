@@ -21,10 +21,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-/**
- *
- * @author gersonvidal
- */
 @Entity
 @Table(name = "sales")
 public class Sale implements Serializable {
